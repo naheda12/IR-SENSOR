@@ -1,0 +1,20 @@
+#define ir sensor = 3; 
+#define buzzer = 4; 
+#define relay=5;
+#define led=6; 
+void setup() 
+{
+  pinMode(3,INPUT);
+  pinMode(4,OUTPUT);
+  PinMode(5,OUTPUT);
+  PinMode (6,OUTPUT);
+}
+
+void loop() 
+{
+  if (digital Write(3)== HIGH) 
+   digitalWrite(4, HIGH);
+   delay(4000); 
+ digitalWrite(5,HIGH);
+digitalWrite(6,HIGH);
+}
